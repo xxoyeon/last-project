@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#fp-nav ul li a span {
+    background-color: #80AFE5 !important;
+}
+#fp-nav ul li .fp-tooltip.fp-right {
+    color: #80AFE5;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    text-align: center;
+}
+
+    /* --- section s0 --- */
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    /*--- section s1 ---*/
+
+    .s1 {
+        background: url(../images/section\ s1\ background.png) center right no-repeat;
+        background-size: 70% 100%;
+    }
+
+    .best {
+        background: url(../images/back.png) no-repeat;
+        background-position: 28.8%;
+    }
+
+    .best-flex {
+        display: flex;
+        flex-flow: row;
+        margin: 0 5%;
+        height: 900px;
+        align-items: center;
+    }
+
+    .best-text {
+        font-size: 45px;
+        padding-left: 5%;
+    }
+
+    .best-product {
+        display: flex;
+        flex-direction: column;
+        margin: 0 23.4vw;
+    }
+
+    .best-product ul{
+        margin: 0 auto;
+    }
+
+    .best-product li{
+        list-style: none;
+        float: left;
+        padding: 8px 35px;
+        margin: 0 20px;
+        font-size: 24px;
+        background-color: #8D95D6;
+        border: solid 1.5px #8D95D6;
+        border-radius: 30px;
+        color: #FFFFFF;
+    }
+
+    .best-product li:hover {
+        background-color: #FFFFFF;
+        border: solid 1.5px #8D95D6;
+        border-radius: 30px;
+        color: #8D95D6;
+        cursor: pointer;
+    }
+
+    .btn-click{
+        background-color: #FFFFFF !important;
+        border: solid 1.5px #8D95D6 !important;
+        border-radius: 30px !important;
+        color: #8D95D6 !important;
+    }
+
+    .list-dog, .list-cat{
+        display:flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .list-item {
+        margin: 0 20px;
+    }
+
+    .item-name {
+        text-align: center;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .red-font {
+        color: #ff0000;
+        margin-right: 5px;
+    }
+
+    .line-font {
+        text-decoration: line-through;
+        margin-right: 5px;
+    }
+
+    .img01 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-0.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img01:hover{
+        background: url(../images/Property\ 1=hover-0.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img02 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-8.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img02:hover{
+        background: url(../images/Property\ 1=hover-8.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img03 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-16.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img03:hover{
+        background: url(../images/Property\ 1=hover-16.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img04 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-4.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img04:hover{
+        background: url(../images/Property\ 1=hover-4.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img05 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-12.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img05:hover{
+        background: url(../images/Property\ 1=hover-12.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img06 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-20.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img06:hover{
+        background: url(../images/Property\ 1=hover-20.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img07 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-1.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img07:hover{
+        background: url(../images/Property\ 1=hover-1.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img08 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-9.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img08:hover{
+        background: url(../images/Property\ 1=hover-9.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img09 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-17.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img09:hover{
+        background: url(../images/Property\ 1=hover-17.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img10 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-5.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img10:hover{
+        background: url(../images/Property\ 1=hover-5.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img11 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-13.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img11:hover{
+        background: url(../images/Property\ 1=hover-13.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img12 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-21.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img12:hover{
+        background: url(../images/Property\ 1=hover-21.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img13 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-3.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img13:hover{
+        background: url(../images/Property\ 1=hover-3.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img14 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-11.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img14:hover{
+        background: url(../images/Property\ 1=hover-11.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img15 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-19.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img15:hover{
+        background: url(../images/Property\ 1=hover-19.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img16 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-7.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img16:hover{
+        background: url(../images/Property\ 1=hover-7.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img17 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-15.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img17:hover{
+        background: url(../images/Property\ 1=hover-15.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img18 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-23.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img18:hover{
+        background: url(../images/Property\ 1=hover-23.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img19 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-2.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img19:hover{
+        background: url(../images/Property\ 1=hover-2.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img20 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-10.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img20:hover{
+        background: url(../images/Property\ 1=hover-10.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img21 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-18.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img21:hover{
+        background: url(../images/Property\ 1=hover-18.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img22 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-6.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img22:hover{
+        background: url(../images/Property\ 1=hover-6.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img23 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-14.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img23:hover{
+        background: url(../images/Property\ 1=hover-14.png) no-repeat;
+        transition: .3s;
+    }
+
+    .img24 {
+        width: 250px;
+        height: 250px;
+        background: url(../images/Property\ 1=default-22.png) no-repeat;
+        background-size: cover;
+    }
+
+    .img24:hover{
+        background: url(../images/Property\ 1=hover-22.png) no-repeat;
+        transition: .3s;
+    }
+
+
+    .display-none {
+        display: none;
+    }
+
+
+
+    /*--- section s2 ---*/
+
+    .s2 {
+        background: url(../images/section\ s2\ background.png) center right no-repeat;
+        background-size: 55% 100%;
+    }
+
+    .login-title {
+        width: 1700px;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 45px;
+        margin-left: 550px;
+    }
+    
+    .toggle-click {
+        opacity: 1 !important;
+    }
+
+    .toggle img {
+        opacity: 0.3;
+        width: 80px;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .login-pet01 {
+        background: url(../images/login_dog.png) center center no-repeat;
+        background-size:35%;
+        background-position: 50% 50%;
+        width: 1700px;
+        height: 700px;
+        margin: auto;
+    }
+
+    .login-pet02 {
+        background: url(../images/login_cat.png) center center no-repeat;
+        background-size:30%;
+        background-position: 55% 50%;
+        width: 1700px;
+        height: 700px;
+        margin: auto;
+    }
+
+    .none-click {
+        display: none;
+    }
+
+    .click {
+        position: absolute;
+        right: 180px;
+    }
+
+    .click img {
+        margin: 10px 40px;
+    }
+
+    .click div {
+        font-size: 25px;
+        font-weight: 350;
+    }
+
+    .textTitle {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .textExplain {
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+
+    .textTag {
+        font-size: 25px;
+        color: #80AFE5;
+    }
+
+
+    .text01 {
+        position: absolute;
+        top: 300px;
+        left: 350px;
+    }
+
+    .text02 {
+        position: absolute;
+        top: 600px;
+        left: 250px;
+    }
+
+    .text03 {
+        position: absolute;
+        top: 450px;
+        right: 250px;
+    }
+
+
+    /*--- section s3 ---*/
+
+    .s3 {
+        background: url(../images/section\ s4\ background.png) center bottom no-repeat;
+        background-size: 100% 50%;
+    }
+
+    .community {
+        margin: 0 auto;
+        height: 900px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .commu-title {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+
+    .commu-text {
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    .commu-item {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    .item {
+        position: relative;
+    }
+
+    .instaItem {
+        margin: 0 20px;
+        width: 400px;
+    }
+
+    .icon {
+        z-index: 100;
+    }
+    
+    #heart_icon {
+        position: absolute;
+        font-size: 30px;
+        top: 468px;
+        left: 32px;
+        cursor: pointer;  
+    }
+
+    .like_button .fa-solid {
+        color: #ff0000;
+    }
+    
+    .heart_number {
+        position: absolute;
+        font-size: 16px;
+        font-weight: bold;
+        top: 504px;
+        left: 82px;
+    }
+    
+    .bookmark-button {
+        -webkit-text-stroke: 1px;
+        position: absolute;
+        font-size: 28px;
+        top: 462px;
+        right: 32px;
+        cursor: pointer;
+        color: black;  
+    }
+    
+    /*--- section s4 ---*/
+
+    .swiper {
+        width: 100%;
+        height: 350px
+    }
+
+    .swiper mySwiper .swiper-initialized .swiper-vertical .swiper-backface-hidden {
+        position: absolute 50% 70%;
+    }
+  
+    .swiper-slide {
+        width: 100%;
+    }
+  
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+
+    .section4_item {
+        height: 800px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .search {
+        border-bottom: 2px solid #8D95D6;
+        box-sizing: border-box;
+    }
+
+    .search_form {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: #8D95D6;
+    }
+
+    input[type=text] {
+        border-style: none;
+        width: 500px;
+        margin: 0 50px;
+    }
+
+    input[type=text]:focus{
+        outline: none;
+    }
+
+    input[type=text] i {
+        cursor: pointer;
+    }
+
+  
