@@ -538,7 +538,8 @@ li {
     .commu-text {
         font-size: 20px;
         font-weight: 300;
-        margin-top: 10px;
+        margin-bottom: 50px;
+        text-align-last: center;
     }
     .commu-item {
         display: flex;
