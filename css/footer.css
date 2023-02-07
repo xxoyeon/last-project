@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #636363;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+}
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+/* top footer */
+.top-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 383px;
+    align-items: center;
+    background-color: #F0F8FF;
+}
+.top-left-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+.top-rigth-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 630px;
+}
+.top-rigth-footer h3 {
+    color: #8085AF;
+}
+.bank-footer {
+    height: 70px;
+}
+.marketing-footer {
+    height: 90px;
+}
+.cs-footer {
+    height: 117px;
+}
+.color-8085AF {
+    color: #8085AF;
+    font-size: 14px;
+}
+
+/* bottom footer */
+.bottom-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #8085AF;
+}
+.bottom-footer-text li {
+    list-style: none;
+    float: left;
+    color: #F0F8FF;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.bottom-footer-text li:not(:first-child) {
+    border-left: 1px solid #F0F8FF;
+}
+.bottom-footer-icon {
+    margin-top: 10px;
+}
+.bottom-footer-icon img {
+    filter: invert(89%) sepia(8%) saturate(625%) hue-rotate(192deg) brightness(104%) contrast(107%);
+    margin: 0 10px;
+}
+
+
+/* 반응형 */
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .top-footer {
+        height: 230px;
+    }
+    .top-left-footer {
+        width: 100%;
+        flex-direction: row;
+    }
+    .c2023 {
+        display: none;
+    }
+    .top-rigth-footer {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .bottom-footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bottom-footer-icon {
+        margin-top: 0;
+    }
+}
+@media screen and (min-width:1025px) {
+    .top-footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 280px;
+    }
+    .top-left-footer {
+        width: 55%;
+        height: 210px;
+    }
+    .top-rigth-footer {
+        justify-content: space-between;
+        height: 210px;
+    }
+    .bottom-footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bottom-footer-icon {
+        margin-top: 0;
+    }
+
+}
