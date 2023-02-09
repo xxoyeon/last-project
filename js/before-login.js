@@ -1,7 +1,7 @@
 (function() {
     new fullpage('#full-page' , {
         navigation: true,
-        navigationTooltips: ['MAIN', 'BEST PRODUCT', 'IF YOU LOGIN', 'COMMUNITY', 'SEARCH'],
+        navigationTooltips: ['MAIN', 'BEST PRODUCT', 'IF YOU LOGIN', 'COMMUNITY', 'SEARCH', 'FOOTER'],
         scrollingSpeed: 1200
     });
     
@@ -97,10 +97,10 @@
         centeredSlides: true,
         loop: true,
         autoplay: {
-            delay: 2500,
+            delay:3000,
             disableOnInteraction: false,
-        },
+        }
     });
-    
-    
+
+
 })()

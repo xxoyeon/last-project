@@ -19,9 +19,29 @@ li {
 }
 
     /* --- section s0 --- */
+    
+    .banner1-margin {
+        margin-top: 100px;
+    }
+
+    .banner1-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner1-2 {
+        width: 0;
+        height: 0;
+    }
+
+    .banner1-3 {
+        width: 0;
+        height: 0;
+    }
+
 	.carousel-control-next-icon, .carousel-control-prev-icon {
         width: 50px;
-        height: 50px;
+        height: 50px;   
     }
 
     /*--- section s1 ---*/
@@ -38,25 +58,28 @@ li {
 
     .best-flex {
         display: flex;
-        flex-flow: row;
+        flex-direction: row;
         margin: 0 5%;
         height: 900px;
         align-items: center;
+        justify-content: space-between;
     }
 
     .best-text {
         font-size: 45px;
-        padding-left: 5%;
+        margin-left: 10%;
     }
 
     .best-product {
         display: flex;
         flex-direction: column;
-        margin: 0 23.4vw;
+        width: 80%;
+        margin: 0 20%;
     }
 
     .best-product ul{
         margin: 0 auto;
+        padding: 0;
     }
 
     .best-product li{
@@ -116,294 +139,274 @@ li {
         margin-right: 5px;
     }
 
-    .img01 {
+    .list-item [class*="img"] {
         width: 250px;
         height: 250px;
+    }
+
+    .img01 {
         background: url(../images/Property\ 1=default-0.png) no-repeat;
         background-size: cover;
     }
 
     .img01:hover{
         background: url(../images/Property\ 1=hover-0.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img02 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-8.png) no-repeat;
         background-size: cover;
     }
 
     .img02:hover{
         background: url(../images/Property\ 1=hover-8.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img03 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-16.png) no-repeat;
         background-size: cover;
     }
 
     .img03:hover{
         background: url(../images/Property\ 1=hover-16.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img04 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-4.png) no-repeat;
         background-size: cover;
     }
 
     .img04:hover{
         background: url(../images/Property\ 1=hover-4.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img05 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-12.png) no-repeat;
         background-size: cover;
     }
 
     .img05:hover{
         background: url(../images/Property\ 1=hover-12.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img06 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-20.png) no-repeat;
         background-size: cover;
     }
 
     .img06:hover{
         background: url(../images/Property\ 1=hover-20.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img07 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-1.png) no-repeat;
         background-size: cover;
     }
 
     .img07:hover{
         background: url(../images/Property\ 1=hover-1.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img08 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-9.png) no-repeat;
         background-size: cover;
     }
 
     .img08:hover{
         background: url(../images/Property\ 1=hover-9.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img09 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-17.png) no-repeat;
         background-size: cover;
     }
 
     .img09:hover{
         background: url(../images/Property\ 1=hover-17.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img10 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-5.png) no-repeat;
         background-size: cover;
     }
 
     .img10:hover{
         background: url(../images/Property\ 1=hover-5.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img11 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-13.png) no-repeat;
         background-size: cover;
     }
 
     .img11:hover{
         background: url(../images/Property\ 1=hover-13.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img12 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-21.png) no-repeat;
         background-size: cover;
     }
 
     .img12:hover{
         background: url(../images/Property\ 1=hover-21.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img13 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-3.png) no-repeat;
         background-size: cover;
     }
 
     .img13:hover{
         background: url(../images/Property\ 1=hover-3.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img14 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-11.png) no-repeat;
         background-size: cover;
     }
 
     .img14:hover{
         background: url(../images/Property\ 1=hover-11.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img15 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-19.png) no-repeat;
         background-size: cover;
     }
 
     .img15:hover{
         background: url(../images/Property\ 1=hover-19.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img16 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-7.png) no-repeat;
         background-size: cover;
     }
 
     .img16:hover{
         background: url(../images/Property\ 1=hover-7.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img17 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-15.png) no-repeat;
         background-size: cover;
     }
 
     .img17:hover{
         background: url(../images/Property\ 1=hover-15.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img18 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-23.png) no-repeat;
         background-size: cover;
     }
 
     .img18:hover{
         background: url(../images/Property\ 1=hover-23.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img19 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-2.png) no-repeat;
         background-size: cover;
     }
 
     .img19:hover{
         background: url(../images/Property\ 1=hover-2.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img20 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-10.png) no-repeat;
         background-size: cover;
     }
 
     .img20:hover{
         background: url(../images/Property\ 1=hover-10.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img21 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-18.png) no-repeat;
         background-size: cover;
     }
 
     .img21:hover{
         background: url(../images/Property\ 1=hover-18.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img22 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-6.png) no-repeat;
         background-size: cover;
     }
 
     .img22:hover{
         background: url(../images/Property\ 1=hover-6.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img23 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-14.png) no-repeat;
         background-size: cover;
     }
 
     .img23:hover{
         background: url(../images/Property\ 1=hover-14.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
 
     .img24 {
-        width: 250px;
-        height: 250px;
         background: url(../images/Property\ 1=default-22.png) no-repeat;
         background-size: cover;
     }
 
     .img24:hover{
         background: url(../images/Property\ 1=hover-22.png) no-repeat;
+        background-size: cover;
         transition: .3s;
     }
-
 
     .display-none {
         display: none;
@@ -418,65 +421,73 @@ li {
         background-size: 55% 100%;
     }
 
-    .login-title {
-        width: 1700px;
-        height: 150px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 auto;
-    }
-
     .title {
         font-size: 45px;
-        margin-left: 550px;
+        text-align: center;
     }
     
     .toggle-click {
         opacity: 1 !important;
     }
 
+    .toggle-btn {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 10%;
+        right: 5%;
+        width: 200px;
+    }
+
+    .toggle {
+        display: flex;
+        flex-direction: row;
+    }
+    
     .toggle img {
         opacity: 0.3;
         width: 80px;
-        margin-right: 30px;
+        margin: 0 10px;
         cursor: pointer;
+    }
+
+    .click {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .click img {
+        width: 15px;
+        margin: 0 auto;
+    }
+    
+    .click div {
+        font-size: 25px;
+        font-weight: 350;
+    }
+    
+    .none-click {
+        display: none;
     }
 
     .login-pet01 {
         background: url(../images/login_dog.png) center center no-repeat;
         background-size:35%;
-        background-position: 50% 50%;
+        background-position: 45% 60%;
         width: 1700px;
         height: 700px;
         margin: auto;
     }
-
+    
     .login-pet02 {
         background: url(../images/login_cat.png) center center no-repeat;
         background-size:30%;
-        background-position: 55% 50%;
+        background-position: 55% 60%;
         width: 1700px;
         height: 700px;
         margin: auto;
-    }
-
-    .none-click {
-        display: none;
-    }
-
-    .click {
-        position: absolute;
-        right: 180px;
-    }
-
-    .click img {
-        margin: 10px 40px;
-    }
-
-    .click div {
-        font-size: 25px;
-        font-weight: 350;
     }
 
     .textTitle {
@@ -498,27 +509,27 @@ li {
 
     .text01 {
         position: absolute;
-        top: 300px;
-        left: 350px;
+        top: 30%;
+        left: 17%;
     }
 
     .text02 {
         position: absolute;
-        top: 600px;
-        left: 250px;
+        top: 60%;
+        left: 10%;
     }
 
     .text03 {
         position: absolute;
-        top: 450px;
-        right: 250px;
+        top: 50%;
+        right: 10%;
     }
 
 
     /*--- section s3 ---*/
 
     .s3 {
-        background: url(../images/section\ s4\ background.png) center bottom no-repeat;
+        background: url(../images/section\ s3\ background.png) center bottom no-repeat;
         background-size: 100% 50%;
     }
 
@@ -547,7 +558,7 @@ li {
         justify-content: center;
     }
 
-    .item {
+    .commu-item [class*="item"] {
         position: relative;
     }
 
@@ -594,33 +605,50 @@ li {
 
     .swiper {
         width: 100%;
-        height: 350px
-    }
-
-    .swiper mySwiper .swiper-initialized .swiper-vertical .swiper-backface-hidden {
-        position: absolute 50% 70%;
-    }
+        height: 350px;
+      }
   
     .swiper-slide {
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
   
     .swiper-slide img {
         display: block;
         width: 100%;
+        height: 350px;
+        object-fit: contain;
+    }
+  
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .img-event-1 {
+        width: 100%;
+    }
+    .img-event-2 {
+        width: 0;
+        height: 0;
+    }
+    .img-event-3 {
+        width: 0;
+        height: 0;
+    }
+    
     .section4_item {
-        height: 800px;
         display: flex;
         flex-flow: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
     .search {
         border-bottom: 2px solid #8D95D6;
         box-sizing: border-box;
+        margin-bottom: 5%;
     }
 
     .search_form {
@@ -643,6 +671,279 @@ li {
     input[type=text] i {
         cursor: pointer;
     }
-    /*--test---*/
+
+    .footer {
+        width: 100%;
+        height: 938px;
+    }
+
+    /* --- 반응형 --- */
 
   
+    @media screen and (max-width:1500px) {
+        .s1 {
+            background: url(../images/section\ s1\ background.png) center bottom no-repeat;
+            background-size: 100% 76%;
+        }
+
+        .best {
+            background: url(../images/back.png)left no-repeat;
+            background-size: 100px;
+            background-position: 10% 55%;
+        }
+
+        .best-flex {
+            flex-flow: column;
+            justify-content: center;
+        }
+
+        .best-text {
+            margin: 20px 0
+        }
+
+        .best-product {
+            margin: 40px 20px 40px 150px;
+            align-items: center;
+        }
+
+        .best-product li{
+            list-style: none;
+            float: left;
+            padding: 5px 28px;
+            margin: 0 20px;
+            font-size: 20px;
+            background-color: #8D95D6;
+            border: solid 1.5px #8D95D6;
+            border-radius: 30px;
+            color: #FFFFFF;
+        } 
+        
+        .title {
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        .toggle-btn {
+            top: 20%;
+            right: 8%;
+        }
+
+        .textTitle {
+            font-size: 30px;
+        }
+
+        .textExplain {
+            display: none;
+        }
+
+        .textTag {
+            font-size: 25px;
+        }
+
+        .text01 {
+            position: absolute;
+            top:30%;
+            left: 15%;
+        }
+    
+        .text02 {
+            position: absolute;
+            top: 52%;
+            left: 15%;
+        }
+    
+        .text03 {
+            position: absolute;
+            top: 74%;
+            left: 15%;
+        }
+    
+        .login-pet01 {
+            background: url(../images/login_dog.png) center center no-repeat;
+            background-size: 43%;
+            background-position: 80% 100%;
+            width: 1000px;
+            height: 700px;
+            margin: auto;
+        }
+        
+        .login-pet02 {
+            background: url(../images/login_cat.png) center center no-repeat;
+            background-size: 38%;
+            background-position: 80% 100%;
+            width: 1000px;
+            height: 700px;
+            margin: auto;
+        }
+
+        .list-item {
+            margin: 0 auto;
+        }
+
+        .list-item [class*="img"] {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .item3 {
+        display: none;
+       }
+    }
+
+    @media screen and (max-width:900px) {
+        
+        .s1 {
+            background: url(../images/section\ s1\ background.png) center bottom no-repeat;
+            background-size: 100% 82%;
+            transition: 0.3s;
+        }
+
+        .best {
+            background: none;
+        }
+
+        .best-flex {
+            display: flex;
+            flex-flow: column;
+            justify-content: flex-start;
+        }
+
+        .best-text {
+            margin: 30px 0;
+            padding: 0;
+            font-size: 40px;
+        }
+
+        .best-product {
+            margin: 0 auto;
+        }
+
+        .best-product ul {
+            margin: 0;
+        }
+
+        .best-product li {
+            margin: 0 10px;
+        }
+
+        .list-item {
+            margin: 0 auto;
+        }
+
+        .title {
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        .toggle-btn {
+            top: 20%;
+            right: 10%;
+        }
+
+        .textTitle {
+            font-size: 27px;
+        }
+
+        .textExplain {
+            display: none;
+        }
+
+        .textTag {
+            font-size: 22px;
+        }
+
+        .text01 {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+        }
+    
+        .text02 {
+            position: absolute;
+            top: 52%;
+            left: 10%;
+        }
+    
+        .text03 {
+            position: absolute;
+            top: 75%;
+            left: 10%;
+        }
+    
+        .login-pet01 {
+            background: url(../images/login_dog.png) center center no-repeat;
+            background-size: 65%;
+            background-position: 115% 80%;
+            width: 600px;
+            height: 700px;
+            margin: auto;
+        }
+        
+        .login-pet02 {
+            background: url(../images/login_cat.png) center center no-repeat;
+            background-size: 55%;
+            background-position: 100% 80%;
+            width: 600px;
+            height: 700px;
+            margin: auto;
+        }
+
+        .commu-item {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+        
+        .commu-item [class*="item"] {
+            margin-bottom: 20px;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .item3 {
+            display: block;
+        }
+
+        input[type=text] {
+            width: 300px;
+            transition: .3s;
+        }
+     }
+
+
+
+     /* --- 배너 반응형 --- */
+    @media screen and (max-width:1080px) {
+        .banner1-1 {
+            width: 0;
+            height: 0;
+        }
+
+        .banner1-2 {
+            width: 100%;
+            height: 100%;
+        }
+
+        .banner1-3 {
+            width: 0;
+            height: 0;
+        }
+     }
+
+     @media screen and (max-width:768px) {
+        .banner1-1 {
+            width: 0;
+            height: 0;
+        }
+        .banner1-2 {
+            width: 0;
+            height: 0;
+        }
+        .banner1-3 {
+            width: 100%;
+            height: 100%;
+        }
+     }
+
