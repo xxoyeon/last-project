@@ -606,21 +606,21 @@ li {
     .swiper {
         width: 100%;
         height: 350px;
-      }
-  
+    }
+
     .swiper-slide {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-  
+
     .swiper-slide img {
         display: block;
         width: 100%;
         height: 350px;
         object-fit: contain;
     }
-  
+
     .swiper {
         margin-left: auto;
         margin-right: auto;
@@ -679,22 +679,25 @@ li {
 
     /* --- 반응형 --- */
 
-  
+
     @media screen and (max-width:1500px) {
         .s1 {
             background: url(../images/section\ s1\ background.png) center bottom no-repeat;
             background-size: 100% 76%;
+            transition: 0.3s;
         }
 
         .best {
             background: url(../images/back.png)left no-repeat;
             background-size: 100px;
             background-position: 10% 55%;
+            transition: 0.3s;
         }
 
         .best-flex {
             flex-flow: column;
             justify-content: center;
+            transition: 0.3s;
         }
 
         .best-text {
@@ -704,6 +707,7 @@ li {
         .best-product {
             margin: 40px 20px 40px 150px;
             align-items: center;
+            transition: 0.3s;
         }
 
         .best-product li{
@@ -716,6 +720,7 @@ li {
             border: solid 1.5px #8D95D6;
             border-radius: 30px;
             color: #FFFFFF;
+            transition: 0.3s;
         } 
         
         .title {
@@ -744,18 +749,21 @@ li {
             position: absolute;
             top:30%;
             left: 15%;
+            transition: 0.3s;
         }
     
         .text02 {
             position: absolute;
             top: 52%;
             left: 15%;
+            transition: 0.3s;
         }
     
         .text03 {
             position: absolute;
             top: 74%;
             left: 15%;
+            transition: 0.3s;
         }
     
         .login-pet01 {
@@ -765,6 +773,7 @@ li {
             width: 1000px;
             height: 700px;
             margin: auto;
+            transition: 0.3s;
         }
         
         .login-pet02 {
@@ -774,6 +783,7 @@ li {
             width: 1000px;
             height: 700px;
             margin: auto;
+            transition: 0.3s;
         }
 
         .list-item {
@@ -783,11 +793,12 @@ li {
         .list-item [class*="img"] {
             width: 200px;
             height: 200px;
+            transition: 0.3s;
         }
         
         .item3 {
         display: none;
-       }
+        }
     }
 
     @media screen and (max-width:900px) {
@@ -806,6 +817,7 @@ li {
             display: flex;
             flex-flow: column;
             justify-content: flex-start;
+            transition: 0.3s;
         }
 
         .best-text {
@@ -820,14 +832,17 @@ li {
 
         .best-product ul {
             margin: 0;
+            transition: 0.3s;
         }
 
         .best-product li {
             margin: 0 10px;
+            transition: 0.3s;
         }
 
         .list-item {
             margin: 0 auto;
+            transition: 0.3s;
         }
 
         .title {
@@ -856,18 +871,21 @@ li {
             position: absolute;
             top: 30%;
             left: 10%;
+            transition: 0.3s;
         }
     
         .text02 {
             position: absolute;
             top: 52%;
             left: 10%;
+            transition: 0.3s;
         }
     
         .text03 {
             position: absolute;
             top: 75%;
             left: 10%;
+            transition: 0.3s;
         }
     
         .login-pet01 {
@@ -877,6 +895,7 @@ li {
             width: 600px;
             height: 700px;
             margin: auto;
+            transition: 0.3s;
         }
         
         .login-pet02 {
@@ -886,16 +905,19 @@ li {
             width: 600px;
             height: 700px;
             margin: auto;
+            transition: 0.3s;
         }
 
         .commu-item {
             display: flex;
             flex-flow: column;
             justify-content: center;
+            transition: 0.3s;
         }
         
         .commu-item [class*="item"] {
             margin-bottom: 20px;
+            transition: 0.3s;
         }
 
         ::-webkit-scrollbar {
@@ -910,7 +932,7 @@ li {
             width: 300px;
             transition: .3s;
         }
-     }
+    }
 
 
 
@@ -924,15 +946,16 @@ li {
         .banner1-2 {
             width: 100%;
             height: 100%;
+            transition: 0.3s;
         }
 
         .banner1-3 {
             width: 0;
             height: 0;
         }
-     }
+    }
 
-     @media screen and (max-width:768px) {
+    @media screen and (max-width:768px) {
         .banner1-1 {
             width: 0;
             height: 0;
@@ -945,5 +968,5 @@ li {
             width: 100%;
             height: 100%;
         }
-     }
+    }
 
